@@ -83,12 +83,11 @@ return (
   <div className=" grid grid-row-4 mt-8 ">
         <div>
                <img
-                 className="w-80 h-50 object-cover rounded-3xl mt-10  ml-10 mr-10 mb-10 mx-auto "
+                 className="w-80 h-50 object-cover rounded-3xl mt-1  ml-10 mr-10 mb-10 mx-auto "
                  src="https://img2.pic.in.th/pic/cat1.jpeg"
                  alt="cat1.jpeg"
                ></img>             
                </div>
-        
         <div className="flex flex-col items-center">
              <p className="absolute top-60 right-28 sm:text-5xl font-bold">
                   {" "}
@@ -99,17 +98,11 @@ return (
                  src="https://img5.pic.in.th/file/secure-sv1/star.png"
                  alt="star.png"
                />
-               <p className="absolute top-96 right-28 sm:text-4xl font-bold">
-                    {" "}
-                    จำนวนน้องแมวต่อห้อง
-                    </p>
-                <div className="flex flex-row absolute top-0 right-24 h-50 ">
-                  <img
-                    src="https://img2.pic.in.th/pic/buttonnull.png"
-                    alt="buttonnull.png"
-                  />
+              <p className="absolute top-96 right-28 sm:text-4xl font-bold">{" "}จำนวนน้องแมวต่อห้อง </p>
+              <div className="flex flex-row absolute top-0 right-24 h-50 ">
+                  <img src="https://img2.pic.in.th/pic/buttonnull.png" alt="buttonnull.png"/>
+                  <img src="https://img2.pic.in.th/pic/pink.png" alt="pink.png" />
                </div>
-
 
         </div>
         </div>
@@ -118,3 +111,4 @@ return (
 );
       };
 export default BookingUser;
+
